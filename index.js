@@ -51,7 +51,7 @@
   let monthly = [monthlyInfo.january*dailyIncome, monthlyInfo.february*dailyIncome, monthlyInfo.march*dailyIncome, monthlyInfo.april*dailyIncome, monthlyInfo.may*dailyIncome, monthlyInfo.june*dailyIncome, monthlyInfo.july*dailyIncome, monthlyInfo.august*dailyIncome, monthlyInfo.september*dailyIncome, monthlyInfo.october*dailyIncome, monthlyInfo.november*dailyIncome, monthlyInfo.december*dailyIncome];
   function monthlyIcome(){
 
-  `Your income for january is${monthlyInfo[0]}
+  let leapIncome =`Your income for january is${monthlyInfo[0]}
   Your Income for february is ${monthlyInfo[1]}
   Your income for march is ${monthlyInfo[2]}
   Your income for april is ${monthlyInfo[3]}
