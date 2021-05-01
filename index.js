@@ -49,19 +49,23 @@
   let dailyIncome = 45 * total;
 
   let monthly = [monthlyInfo.january*dailyIncome, monthlyInfo.february*dailyIncome, monthlyInfo.march*dailyIncome, monthlyInfo.april*dailyIncome, monthlyInfo.may*dailyIncome, monthlyInfo.june*dailyIncome, monthlyInfo.july*dailyIncome, monthlyInfo.august*dailyIncome, monthlyInfo.september*dailyIncome, monthlyInfo.october*dailyIncome, monthlyInfo.november*dailyIncome, monthlyInfo.december*dailyIncome];
-  function monthlyIcome(){
+  function monthlyIncome(){
 
-  let leapIncome =`Your income for january is${monthlyInfo[0]}
-  Your Income for february is ${monthlyInfo[1]}
-  Your income for march is ${monthlyInfo[2]}
-  Your income for april is ${monthlyInfo[3]}
-  Your income for May is ${monthlyInfo[4]}
-  your income for June is ${monthlyInfo[5]}
-  Your income for July is ${monthlyInfo[6]}
-  Your income for August is ${monthlyInfo[7]}
-  Your income for September is ${monthlyInfo[8]}
-  Your income for october is ${monthlyInfo[9]}
-  Your income for November is ${monthlyInfo[10]}
-  Your income for december is ${monthlyInfo[11]}` ;
+  let leapIncome =`Your income for January is ${monthly[0]}
+  Your Income for February is ${monthly[1]}
+  Your income for March is ${monthly[2]}
+  Your income for April is ${monthly[3]}
+  Your income for May is ${monthly[4]}
+  your income for June is ${monthly[5]}
+  Your income for July is ${monthly[6]}
+  Your income for August is ${monthly[7]}
+  Your income for September is ${monthly[8]}
+  Your income for October is ${monthly[9]}
+  Your income for November is ${monthly[10]}
+  Your income for December is ${monthly[11]}`;
+  const testVar = document.getElementById('leapyear').innerText = leapIncome;
+  console.log(testVar);
 }
+monthlyIncome();
+
 
