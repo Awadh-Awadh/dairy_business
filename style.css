@@ -50,3 +50,7 @@ h3{
 #btn:hover{
   background-color: antiquewhite;
 }
+footer{
+  text-align: center;
+  color: black;
+}
