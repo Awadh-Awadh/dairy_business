@@ -68,4 +68,10 @@
 }
 monthlyIncome();
 
+let monthlyCustRate = [monthlyInfo.january*dailyIncome, monthlyInfo.february*dailyIncome, monthlyInfo.march*dailyIncome, monthlyInfo.april*dailyIncome, monthlyInfo.may*dailyIncome, monthlyInfo.june*dailyIncome, monthlyInfo.july*dailyIncome, monthlyInfo.august*dailyIncome, monthlyInfo.september*dailyIncome, monthlyInfo.october*dailyIncome, monthlyInfo.november*dailyIncome, monthlyInfo.december*dailyIncome];
+
+function userPrompt(rate){
+  rate = prompt('enter your rate');
+}
+
 

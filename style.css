@@ -21,7 +21,7 @@ h3{
   padding-bottom: 5%;
 }
 
-.container{
+.container, .button{
   
   text-align: center;
   color:black;
@@ -35,4 +35,18 @@ h3{
   padding: 2% 5% 5% 5%;
   width: 60%;
   box-shadow: 4px 10px 15px #393e46, -4px -4px 10px #393e46;
+}
+.button{
+  padding-bottom: 5%;
+}
+#btn{
+  padding: 20px;
+  border-radius: 20px;
+  background-color: cadetblue;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+#btn:hover{
+  background-color: antiquewhite;
 }
