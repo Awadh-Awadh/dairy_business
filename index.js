@@ -87,7 +87,7 @@ function userPrompt(rate){
   Your income for October is ${monthlyCustRate[9]}
   Your income for November is ${monthlyCustRate[10]}
   Your income for December is ${monthlyCustRate[11]}`;
-  const amountEntered = document.getElementById('enter').innerText = `You have enetered ksh. ${rate}`;
+  const amountEntered = document.getElementById('enter').innerText = `You have entered ksh. ${rate}`;
   const testVar = document.getElementById('customerInput').innerText = userInput ;
   console.log(testVar);
 }
