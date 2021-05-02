@@ -68,10 +68,30 @@
 }
 monthlyIncome();
 
-let monthlyCustRate = [monthlyInfo.january*dailyIncome, monthlyInfo.february*dailyIncome, monthlyInfo.march*dailyIncome, monthlyInfo.april*dailyIncome, monthlyInfo.may*dailyIncome, monthlyInfo.june*dailyIncome, monthlyInfo.july*dailyIncome, monthlyInfo.august*dailyIncome, monthlyInfo.september*dailyIncome, monthlyInfo.october*dailyIncome, monthlyInfo.november*dailyIncome, monthlyInfo.december*dailyIncome];
-
 function userPrompt(rate){
-  rate = prompt('enter your rate');
+  rate = prompt('Enter your rate(Ksh.)');
+
+  let monthlyCustRate = [monthlyInfo.january*rate*total, monthlyInfo.february*rate*total, monthlyInfo.march*rate*total, monthlyInfo.april*rate*total, monthlyInfo.may*rate*total, monthlyInfo.june*rate*total, monthlyInfo.july*rate*total, monthlyInfo.august*rate*total, monthlyInfo.september*rate*total, monthlyInfo.october*rate*total, monthlyInfo.november*rate*total, monthlyInfo.december*rate*total];
+
+  if(rate != typeof(string) && rate != null){
+
+   let userInput = `Your income for January is ${monthlyCustRate[0]}
+  Your Income for February is ${monthlyCustRate[1]}
+  Your income for March is ${monthlyCustRate[2]}
+  Your income for April is ${monthlyCustRate[3]}
+  Your income for May is ${monthlyCustRate[4]}
+  your income for June is ${monthlyCustRate[5]}
+  Your income for July is ${monthlyCustRate[6]}
+  Your income for August is ${monthlyCustRate[7]}
+  Your income for September is ${monthlyCustRate[8]}
+  Your income for October is ${monthlyCustRate[9]}
+  Your income for November is ${monthlyCustRate[10]}
+  Your income for December is ${monthlyCustRate[11]}`;
+  const amountEntered = document.getElementById('enter').innerText = `You have enetered ksh. ${rate}`;
+  const testVar = document.getElementById('customerInput').innerText = userInput ;
+  console.log(testVar);
 }
+}
+
 
 
