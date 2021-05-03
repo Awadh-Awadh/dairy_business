@@ -30,7 +30,7 @@ There are no known bugs at the moment but if any spotted you can reach me at awa
 
 ## Licence
 
-[[Licence] MIT licence]
+[MIT License](./LICENSE)
 
 Copyright (c) 2021 Awadh-Awadh
 
